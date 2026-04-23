@@ -1,0 +1,12 @@
+Este proyecto implementa el método DLT (Direct Linear Transformation) para calcular la matriz de proyección de una cámara a partir de correspondencias entre
+puntos 3D en el mundo y sus proyecciones 2D en la imagen.
+
+El script realiza tres tareas principales:
+
+    Construcción del sistema de ecuaciones lineales basado en las correspondencias 3D–2D.
+
+    Resolución mediante Descomposición en Valores Singulares (SVD) para obtener la matriz de proyección P.
+
+    Verificación del resultado reproyectando los puntos y calculando el error en píxeles.
+
+El código está pensado como una implementación sencilla y directa del algoritmo DLT, útil para experimentación, calibración básica o validación de modelos geométricos.
